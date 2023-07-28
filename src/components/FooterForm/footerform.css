@@ -1,0 +1,82 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.customer{
+  font-size: 15px;
+  padding-bottom: 20px;
+  color: #5860AF;
+
+}
+
+.link{
+  font-size: 13px;
+  padding-bottom: 5px;
+  color: black !important;
+} 
+  
+.grid{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   margin-top: 60px;  
+}
+.typography{
+  display: flex;
+  flex-direction: column;
+}
+
+.english{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  border-top: 2px solid #EFF3F8 ;
+}
+.emailAddress{
+  width: 180px;
+  height: 30px;
+  margin-top: 10px;
+}
+.btn{
+  width: 75px;
+  height: 30px;
+  background-color: #8F94C3 ;
+  border: none;
+}
+.btn>p{
+    width: 63px;
+    height: 13px;
+    color: #E6E6E6;
+    display: flex;
+    align-items: center;
+}
+
+.typographyIcons{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.icons{
+  color: #8F94C3;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.allRightsReserved{
+  margin-left: 85px;
+}
+.allRightsReserved>p{
+  font-size: 13px;
+}
+
+.allRightsReservedEnglish{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 110px;
+}
+.allRightsReservedEnglish>p{
+  font-size: 13px;
+}

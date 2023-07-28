@@ -1,0 +1,37 @@
+h5.catHeading {
+    color: #8F94C3;
+    text-align: left;
+    letter-spacing: 0;
+    font-size: 20px;
+    margin: 20.5px 0px;
+}
+a.catLink {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: 0;
+    font-size: 16px;
+    margin: 28px 0px;
+}
+div.categories {
+    border-bottom: 0.5px solid #B7B9D5;
+    padding: 14.5px 9px;
+    width: 240px;
+}
+div.lastCategory {
+    padding: 14.5px 9px;
+    width: 240px;
+    margin-bottom: 60px;
+}
+
+.recently{
+    width: 240px;
+    color: #8F94C3;
+    text-align: left;
+    letter-spacing: 0;
+    font-size: 20px;
+    margin: 20.5px 0px 35px;
+    display: flex;
+    align-items: center;
+    
+}

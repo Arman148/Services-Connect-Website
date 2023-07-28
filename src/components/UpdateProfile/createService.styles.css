@@ -1,0 +1,138 @@
+
+/* .login-form {
+   width: 360px;
+} */
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+   
+}
+.selectStyle{
+   width: 100%;
+    padding: 0;
+}
+.MuiFormControl-root{
+    width: 100% !important;
+    margin-left: 0 !important;
+    background-color: #fff !important;
+}
+.login-form_input {
+    margin: 10px 0;
+}
+
+.link_pass{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-text  {
+    font-size: 10px;
+    margin:0 0 10px 10px;
+    
+}
+
+.signcontinue{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.avatar {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.small{
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+.small>a{
+    font-weight: bold;
+}
+
+.form-group-browse{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+}
+
+input[type="file"]{
+display: none;
+}
+
+button[type="but"]{
+    width: 96px;
+    margin: 10px 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px ;
+}
+
+label[id="up"]{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    transition: transform 0.2s ease;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label[id="up"]:hover{
+    transform: translateY(-5px);
+}
+
+input[id="browse"]:hover{
+    transform: translateY(0px);
+    width: 80px;
+    height: 80px;
+}
+.file-name{
+    padding: 0px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border: 1px solid var(--outline);
+    border-radius: 4px 4px 4px 4px;
+    border-bottom-left-radius:4px ;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.file-name:hover .browse-style{
+    background-color: #7973C3;
+    cursor: pointer;
+}
+
+.browse-style{
+    width: 75px;
+    height: 47px;
+    background: #8F94C3;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createServiceForm {
+    position: relative;
+    padding: 25px 10%;
+}
+
+.createServiceBtn {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 25px;
+}

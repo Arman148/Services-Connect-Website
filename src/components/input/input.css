@@ -1,0 +1,74 @@
+:root{
+    --solid: rgb(24, 24, 24);
+    --white: rgb(255, 255, 255);
+    --outline: rgb(150, 150, 150);   
+}
+
+.input{
+    padding: 5px;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-sizing: border-box;
+}
+
+.input:hover{    
+    transform: translateY(-5px);
+}
+
+/* button Styles */
+
+
+.input--default--solid{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.input--border--solid{    
+    background-color: var(--white);
+    border: 1px solid var(--solid);
+    color: black;
+}
+
+.input--borderRounded--solid{   
+    background-color: var(--white);
+    border: 1px solid var(--solid);
+    border-radius: 7px;
+    color: black;
+}
+
+.input--default--outline{    
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    color: rgb(80, 80, 80);
+}
+
+.input--border--outline{    
+    background-color: var(--white);
+    border: 1px solid var(--outline);
+    color: rgb(80, 80, 80);
+}
+
+.input--borderRounded--outline{
+    background-color: var(--white);
+    border: 1px solid var(--outline);
+    border-radius: 4px;
+    color: black;
+}
+.input--default--borderRounded--outline{
+    background-color: var(--white);
+    border: 1px solid var(--outline);
+    border-radius: 4px;
+    color: black;
+}
+
+
+/*input sizes*/
+.input--default{
+    width:100%;
+}
+
+/* .input--small{
+    width: 320px;
+} */

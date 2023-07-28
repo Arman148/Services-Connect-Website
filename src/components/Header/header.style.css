@@ -1,0 +1,48 @@
+.makeStyles-header-1{
+    z-index: 2;
+}
+.logo-font {
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    color: #8F94C3;
+    font-family: 'Raleway Regular';
+    font-size: 38px;
+    padding-top: 38px;
+}
+
+.nav_ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav_ul a {
+    margin-left: 20px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 17px;
+    width: 100px;
+    height: 90px;
+    font-size: 20px;
+    line-height: 12px;
+    text-decoration: none;
+    transition: all 0.2;
+}
+
+.makeStyles-nav-3 a:last-child {
+    margin-right: 30px !important;
+}
+
+.nav_ul a:active {
+    color: #8F94C3;
+}
+
+.selected-route {
+    background: #8F94C3;
+    color: #fff;
+    
+}
+
